@@ -23,14 +23,8 @@ public class RibbonsampleActivity extends Activity implements iRibbonMenuCallbac
 	        rbmView = (RibbonMenuView) findViewById(R.id.ribbonMenuView1);
 	        rbmView.setMenuClickCallback(this);
 	        rbmView.setMenuItems(R.menu.ribbon_menu);
-
-
-
-
-
-
-	        
-	         getActionBar().setDisplayHomeAsUpEnabled(true);
+      
+	        getActionBar().setDisplayHomeAsUpEnabled(true);
 	         
 	        
 	    }
